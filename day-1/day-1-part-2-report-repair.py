@@ -1,8 +1,3 @@
-import os
-cwd = os.getcwd()
-files = os.listdir(cwd)
-print("Files in %r: %s" % (cwd, files))
-
 file = open("day-1/input", "r")
 lines = file.readlines()
 found = False
