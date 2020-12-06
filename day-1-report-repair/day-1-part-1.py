@@ -1,4 +1,4 @@
-file = open("day-1/input", "r")
+file = open("day-1-report-repair/input", "r")
 lines = file.readlines()
 found = False
 

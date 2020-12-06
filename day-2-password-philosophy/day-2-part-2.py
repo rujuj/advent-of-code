@@ -1,4 +1,4 @@
-file = open("day-2/input", "r")
+file = open("day-2-password-philosophy/input", "r")
 lines = file.readlines()
 
 valid_passwords = 0
