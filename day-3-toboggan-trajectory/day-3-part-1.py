@@ -21,5 +21,3 @@ print(treecounter)
 
 # first attempt: 77 - wrong (had the wrong linelength and possibly faulty xcounter logic)
 # second attempt: success :) 
-
-

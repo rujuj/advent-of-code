@@ -27,11 +27,3 @@ print(validpasses)
 
 # first attempt: tried 89 - incorrect
 # second attempt: success - used the re package instead of just trying to split by both space and newline together 
-
-
-
-
-
-
-
-
