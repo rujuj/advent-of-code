@@ -32,13 +32,14 @@ for line in lines:
     else:
         seat = lower_seat
     seatID = row * 8 + seat
-    if seatID > max:
-        max = seatID
+    seatIDs.append(seatID)
 
-print(max)
+seatIDs.sort()
 
-# first try: 519 - too low
-# second try: 807 - too high 
-# third try: 803 - too high
-# okay this was dumb as hell - was doing line[7:8] because I genuinely thought it was right and it was actually wrong because I don't know how python arrays work apparently
-# got it on the 4th try (in fairness, I was very close in try 2 and 3)
+for i in range(1, len(seatIDs)- 1):
+    if seatIDs[i] - seatIDs[i - 1] != 1:
+        print(seatIDs[i] - 1)
+        break
+
+# attempt 1: 598 - too high 
+# oops forgot to subtract 1 from my flagged seat - got it on the second try :) 
