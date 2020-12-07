@@ -19,10 +19,5 @@ for slope in slopes:
             xcounter = (xcounter + slope[0]) % linelength
         else:    
             xcounter += slope[0]
-    print(slope[2])
     treecounter *= slope[2]
-    print("t"+str(treecounter))
-
 print(treecounter)
-
-
