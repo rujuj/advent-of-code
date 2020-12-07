@@ -27,7 +27,6 @@ for line in lines:
             upper_seat = math.floor((lower_seat + upper_seat) / 2)
         else:
             lower_seat = math.ceil((lower_seat + upper_seat) / 2)
-        print(lower_seat, " to ", upper_seat)
     if line[9] == 'R':
         seat = upper_seat
     else:
@@ -37,9 +36,7 @@ for line in lines:
 
     if seatID > max:
         max = seatID
-    print(max, " ", seatID)
 
-print(seatIDs)
 print(max)
 
 # first try: 519 - too low
