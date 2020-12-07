@@ -1,5 +1,3 @@
-import math
-
 file = open("day-6-custom-customs/input", "r")
 groups = file.read().split("\n\n")
 
@@ -20,3 +18,4 @@ for group in groups:
 print(yes_count)
 
 # yas I got this one on the first try, no debugging required :relieved:
+# could also make group_yes a set
